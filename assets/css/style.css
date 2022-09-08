@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=The+Nautigal&family=Yellowtail&display=swap');
+
+
+*{
+    color: white;
+    font-size: 14px;
+    
+}
+
+h1{
+    font-family: 'Dancing Script';
+}
+
+h2, li{
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* TOP BUTTON */
+.pagetop{
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 3;
+}
+.pagetop a{
+    display: block;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #7db4e6;
+    border-radius: 50%;
+    line-height: 50px;
+}
+.pagetop a i{
+    font-size: 20px;
+    color:#fff;
+    line-height: 40px;
+}
+
+
+/* HEADER */
+header{
+    background-image: url(../image/lovegraph_7.jpg);
+    background-size: cover;
+    background-position: 50% center;
+    height: 750px;
+    position: relative;
+}
+
+header .container{
+    position: absolute;
+    top: 50%;
+}
+
+
+/* MESSAGE */
+.message{
+    background: linear-gradient( rgba(215, 216, 210, 0.9), rgba(71, 164, 198, 0.7) ), url(../image/lovegraph_28.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* PROFILE */
+.profile{
+    background: linear-gradient( rgba(71, 164, 198, 0.7), rgb(88, 168, 212, 1));
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+ 
+.head:after {
+    content: "";
+    height: 1px;
+    flex-grow: 0.5;
+    background-color: white;
+}
+ 
+.head:after {
+    margin-left: 1rem;
+}
+
+/* Kazuki Profile */
+.image_kazuki{
+    position: relative;
+}
+
+.kazuki1{
+    position: relative;
+    z-index: 0;
+    height: 300px;
+    width: 70%;
+}
+
+.kazuki2{
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+    height: 300px;
+    width: 60%;
+    right: 5%;
+    top: 5%;
+}
+
+.first_name{
+    margin-left: 20%;
+}
+
+.last_name{
+    margin-left: 30%;
+}
+
+/* Ami Profile */
+.image_ami{
+    position: relative;
+}
+
+.ami1{
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    height: 300px;
+    width: 70%;
+}
+
+.ami2{
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+    height: 300px;
+    width: 60%;
+    right: 5%;
+    top: 5%;
+}
+
+
+
+/* Picture Space */
+.picture_space {
+    background-image: url(../image/lovegraph_155.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    background-repeat: no-repeat;
+}
+
+/* Event */
+.event{
+    background: linear-gradient( rgb(211, 234, 202), rgba(7, 177, 229, 0.7));
+}
+
+
+/* Position */
+.information{
+    background: linear-gradient(to bottom right,rgb(126, 183, 214) 5%,rgb(189, 234, 172));
+    border: white solid;
+    width: 70%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.information_info{
+    padding: 2rem;
+}
+
+
+/* MAP */
+.map{
+    position: relative;
+    z-index: 0;
+    bottom: 100px; 
+}
+
+.map_info{
+    height: auto;
+    width: 90%;
+}
+
+.img_box{
+    width: 70%;
+}
+
+/* Line */
+.head-border {
+    display: flex;
+    align-items: center;
+}
+ 
+.head-border:before,
+.head-border:after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background-color: white;
+}
+ 
+.head-border:before {
+    margin-right: 1rem;
+}
+ 
+.head-border:after {
+    margin-left: 1rem;
+}
+
+/* high-light */
+.map p span{
+    position: relative;
+    background: linear-gradient(transparent 40%, #B8D8D9 40%);
+    width: 80%;
+  }
+
+
+/* ACCESS */
+.access_info span{
+    position: relative;
+    background: linear-gradient(transparent 70%, #d7e7ec 30%);
+    width: 80%;
+  }
+  
+
+
+/* RSVP */
+.rsvp{
+    background: linear-gradient( rgba(7, 177, 229, 0.7), rgba(226, 216, 200, 1) );
+}
+
+
+
